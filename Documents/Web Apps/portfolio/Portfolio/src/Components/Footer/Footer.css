@@ -1,0 +1,11 @@
+#footer{
+    height: 6vh;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    color: rgb(175, 174, 174);
+    line-height: 6vh;
+    vertical-align: middle;
+    font-size: 11px;
+}

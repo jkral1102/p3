@@ -1,0 +1,46 @@
+.project{
+    flex: 1;
+    overflow-y: hidden;
+}
+
+.projectName{
+    font-size: 20px;
+    padding: 20px;
+}
+.popup {
+    top:40px;
+    width: 20vw; 
+    position: relative;
+    margin: auto;
+}
+.projectContent{
+    position: relative;
+    transition:.5s;
+    margin: auto;
+}
+
+.project:hover .projectContent{
+    height: 10vh; /* Changes where the popup rises to */
+}
+
+.project:hover .projectImg{
+    opacity: 0.5;
+    border: solid 1px black;
+}
+.project:hover .popup{
+    top:0px;
+    background-color: rgb(0, 0, 0);
+    height: 65px;
+    line-height: 65px;
+    color: white;
+    font-size: 25px;
+}
+
+.popupText:hover{
+    font-weight: bold;
+    color: #3e89b7;
+}
+.projectMainImg{
+    width: 20vw;
+}
+

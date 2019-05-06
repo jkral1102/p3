@@ -1,0 +1,49 @@
+#bioContainer{
+    margin-top: 10vh;
+    color: white;
+    width: 70vw;
+    font-family: 'Hind Guntur', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 12vh auto;
+}
+
+#bio{
+    margin-top: 7vh;
+    flex: 1;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#bio div {
+    flex: 1;
+}
+
+#homeTitle{
+    font-size: 2.2em;
+    width: 60vw;
+}
+
+#bio div:last-child {
+    flex: 1.2;
+    margin-right: 12vw;
+}
+
+#profilePic{
+    height: 180px;
+    border-radius: 100%;
+    transition: .2s;
+    border: solid 2px rgba(0,0,0,0)
+}
+
+#profilePic:hover{
+    border-color:  #83adef;
+}
+
+#projectsContainer{
+    height: 4000px;
+    background-color: pink;
+}

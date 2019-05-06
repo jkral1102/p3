@@ -1,0 +1,80 @@
+.projects{
+    color: black;
+    margin-top: 15vh;
+}
+
+.projectsHeader{
+    /* display: flex;
+    flex-direction: column; */
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+.projectDivs{
+    display: flex; 
+    flex-direction: column;
+    /* margin-top: 10vh; */
+    /* flex-wrap: wrap; */
+}
+
+.projectWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: green;
+}
+
+.projectInfo{
+    flex: 1;
+}
+
+.projectImg{
+    flex: 1;
+}
+
+/* 
+.shortcutMenu{
+    margin: auto;
+    display: flex;
+    margin-top: 4vh;
+}
+
+.iconDiv{
+    flex: 1;
+    display: flex;
+    margin:auto;
+    max-width:200px;
+}
+
+.icons{
+    flex: 1;
+    border: solid 1px black;
+    height: 20px;
+    max-width: 37px;
+    border-radius: 5px;
+    margin: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+    background-color: #3e89b7;
+}
+
+.icons:hover{
+    background-color: white;
+    color: black;
+}
+
+.icons.active{
+    background-color: rgb(56, 54, 54);
+    color:white;
+}
+
+.icons.active:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.projectDivs > div:not(.project) {
+    margin:auto;
+} */
